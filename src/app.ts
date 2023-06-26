@@ -8,7 +8,7 @@ dotenv.config();
 import path from 'path';
 
 
-const PORT = process.env.PORT||3000
+const PORT = process.env.PORT
 
 mongoose.connect(`mongodb+srv://kioken:${process.env.PASSWORD}@cluster0.0gedaos.mongodb.net/todoProj`)
 

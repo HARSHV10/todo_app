@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --config nodemon.json src/app.ts",
-    "start": "node server.js"
+    "start": "ts-node ./src/app.ts"
   },
   "author": "",
   "license": "ISC",
